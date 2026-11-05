@@ -1,4 +1,3 @@
-
 # 📖 Diario de Estudio / Study Journal
 
 <p align="center">
@@ -23,19 +22,16 @@ Inspirado en la estética limpia y productiva de **Notion (tema oscuro)**, const
 
 ---
 
-
 ### ✨ Características Principales
 
-
-* **📝 Registro detallado de sesiones:** Registra fecha, asignatura o tema, duración en minutos, notas o conceptos aprendidos y valoración de 1 a 5 estrellas.
-* **⭐ Selector de estrellas interactivo:** Componente visual reactivo con estados de previsualización al pasar el cursor y selección persistente.
-* **⚡ Historial y gestión completa (CRUD):** Visualiza todas tus sesiones ordenadas cronológicamente, edítalas en cualquier momento o elimínalas con confirmación segura.
-* **🔒 Seguridad integrada (Anti-XSS):** Todo el contenido ingresado por el usuario es sanitizado mediante inserción segura en el DOM (`textContent` y `createElement`), neutralizando cualquier inyección maliciosa de HTML/JavaScript.
-* **💾 Persistencia local sin servidor:** Tus datos se guardan de forma instantánea y privada en el `localStorage` de tu navegador, con control defensivo ante datos corruptos.
-* **🚀 Cero dependencias:** No requiere Node.js, empaquetadores (Vite/Webpack), frameworks ni servidores locales. Funciona directamente abriendo `index.html`.
+- **📝 Registro detallado de sesiones:** Registra fecha, asignatura o tema, duración en minutos, notas o conceptos aprendidos y valoración de 1 a 5 estrellas.
+- **⭐ Selector de estrellas interactivo:** Componente visual reactivo con estados de previsualización al pasar el cursor y selección persistente.
+- **⚡ Historial y gestión completa (CRUD):** Visualiza todas tus sesiones ordenadas cronológicamente, edítalas en cualquier momento o elimínalas con confirmación segura.
+- **🔒 Seguridad integrada (Anti-XSS):** Todo el contenido ingresado por el usuario es sanitizado mediante inserción segura en el DOM (`textContent` y `createElement`), neutralizando cualquier inyección maliciosa de HTML/JavaScript.
+- **💾 Persistencia local sin servidor:** Tus datos se guardan de forma instantánea y privada en el `localStorage` de tu navegador, con control defensivo ante datos corruptos.
+- **🚀 Cero dependencias:** No requiere Node.js, empaquetadores (Vite/Webpack), frameworks ni servidores locales. Funciona directamente abriendo `index.html`.
 
 ---
-
 
 ### 🏛️ Arquitectura del Proyecto (Clean Architecture)
 
@@ -71,18 +67,15 @@ diario-estudio/
 
 ---
 
-
 ### 🎨 Diseño y UX
 
-
-* **Tema oscuro Notion:** Fondo pizarra suave (`#18191A`), contenedores y tarjetas elevados (`#242526`), y bordes sutiles para evitar la fatiga visual.
-* **Color de acento:** **Ámbar cálido dorado (`#E5A93C`)**, diseñado para evocar concentración, foco y subrayadores clásicos de estudio.
-* **Layout escritorio:** Disposición en dos columnas:
+- **Tema oscuro Notion:** Fondo pizarra suave (`#18191A`), contenedores y tarjetas elevados (`#242526`), y bordes sutiles para evitar la fatiga visual.
+- **Color de acento:** **Ámbar cálido dorado (`#E5A93C`)**, diseñado para evocar concentración, foco y subrayadores clásicos de estudio.
+- **Layout escritorio:** Disposición en dos columnas:
   - **Columna izquierda:** Formulario de registro y paneles auxiliares.
   - **Columna derecha:** Listado cronológico de sesiones registradas.
 
 ---
-
 
 ### 🚀 Cómo Ejecutar la Aplicación
 
@@ -94,16 +87,15 @@ No necesitas instalar dependencias ni iniciar ningún servidor:
    cd diario-estudio
    ```
 2. Abre el archivo `index.html` en tu navegador preferido (**Google Chrome**, **Firefox**, **Edge**):
-   * En Linux / Ubuntu:
+   - En Linux / Ubuntu:
      ```bash
      google-chrome index.html
      # o
      xdg-open index.html
      ```
-   * O simplemente haciendo **doble clic** sobre `index.html` en tu explorador de archivos.
+   - O simplemente haciendo **doble clic** sobre `index.html` en tu explorador de archivos.
 
 ---
-
 
 ### 🗺️ Hoja de Ruta (Roadmap)
 
@@ -125,9 +117,7 @@ No necesitas instalar dependencias ni iniciar ningún servidor:
 
 ---
 
-
 ## 🇬🇧 Study Journal (English)
-
 
 > A personal, minimalist, zero-dependency study tracker to log study hours, keep track of topics learned, and maintain daily consistency.
 
