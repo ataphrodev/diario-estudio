@@ -1,0 +1,14 @@
+/**
+ * ==============================================================================
+ * DIARIO DE ESTUDIO - HOJA DE ESTILOS PRINCIPAL
+ * ==============================================================================
+ * Consolida la arquitectura modular de estilos (Clean Architecture para CSS):
+ * 1. Variables y tokens de diseño
+ * 2. Estilos base, reset y layout
+ * 3. Componentes visuales
+ */
+
+@import "variables.css";
+@import "base.css";
+@import "components.css";
+
